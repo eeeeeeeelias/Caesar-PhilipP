@@ -1,20 +1,12 @@
 #pragma once
 #include <algorithm>
 
-struct intpair
+std::pair<int, int> Nth_Fibonacci(int N) //returns ( f(N-1), f(N) )
 {
-	int first = 0;
-	int second = 0;
-};
-
-intpair Nth_Fibonacci(int N) //returns ( f(N-1), f(N) )
-{
-	intpair MyPair;
-	MyPair.first = 0;
-	MyPair.second = 1;
+	int a = 0, b = 1;
 	for (int i = 2; i <= N; i++) {
-		MyPair.first += MyPair.second;
-		std::swap(MyPair.first, MyPair.second);
+		a += b;
+		std::swap(a, b);
 	}
-	return MyPair;
+	return {a, b};
 }

@@ -20,7 +20,7 @@ int main()
 	std::cout << "2. Fibonacci" << std::endl;
 	std::cout << "Insert N: ";
 	std::cin >> N;
-	intpair Xfib = Nth_Fibonacci(N);
+	std::pair<int, int> Xfib = Nth_Fibonacci(N);
 	std::cout << "f(" << (N - 1) << ") = " << Xfib.first << ", f(" << N << ") = " << Xfib.second << std::endl;
 	system("pause");
 	return 0;
