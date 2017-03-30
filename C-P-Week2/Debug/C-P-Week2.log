@@ -1,0 +1,20 @@
+﻿  C-P-Week2.cpp
+c:\caesar-philipp\c-p-week2\3_levenshtein.h(12): warning C4018: '<': signed/unsigned mismatch
+c:\caesar-philipp\c-p-week2\3_levenshtein.h(15): warning C4018: '<': signed/unsigned mismatch
+c:\caesar-philipp\c-p-week2\3_levenshtein.h(17): warning C4018: '<=': signed/unsigned mismatch
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xutility(946): error C2064: term does not evaluate to a function taking 2 arguments
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xutility(943): note: see reference to function template instantiation 'bool std::_Debug_lt_pred<_Pr&,const _Ty&,const _Ty&>(int&,_Ty1,_Ty2,std::_Dbfile_t,std::_Dbline_t) noexcept(<expr>)' being compiled
+          with
+          [
+              _Pr=int,
+              _Ty=int,
+              _Ty1=const int &,
+              _Ty2=const int &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\algorithm(3756): note: see reference to function template instantiation 'const _Ty &std::min<int,int>(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)' being compiled
+          with
+          [
+              _Ty=int,
+              _Pr=int
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xutility(946): error C2056: illegal expression
