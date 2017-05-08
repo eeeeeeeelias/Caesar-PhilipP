@@ -32,7 +32,7 @@ int main()
 		if (letters[0] == 0) { //0, Y, Z
 			if (letters[1] == 0) { answer = false; } //0, 0, Z NO
 			else { //0, Y, Z
-				if (letters[1] == 1) { answer = (letters[2] > 2); } //0, 1, Z
+				if (letters[1] == 1) { answer = (letters[2] > 4); } //0, 1, Z
 				else { answer = true; }//0, 2, Z
 			}
 		}
